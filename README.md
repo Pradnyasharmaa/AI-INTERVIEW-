@@ -1,90 +1,100 @@
+🚀 Seekie – AI Mock Interview App
 
-# Full Stack AI Mock Interview App
+Welcome to Seekie!
+Seekie is a full-stack AI-powered mock interview platform designed to help developers and job seekers practice interviews. It provides AI-driven questions, real-time feedback, and interview history tracking to simulate a realistic hiring experience.
 
-**Welcome to the Full Stack AI Mock Interview App!**  
-This project is designed to help developers enhance their skills through AI-driven mock interviews, providing real-time feedback to simulate a realistic interview experience.
+📑 Table of Contents
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Overview
+Features
+Tech Stack
+Getting Started
+Installation
+Usage
+Contributing
 
-## Overview
-The Full Stack AI Mock Interview App allows users to practice technical and behavioral interview questions in an interactive environment. The app generates custom questions based on user preferences and delivers instant feedback on answers to help users improve their interview skills.
+🔎 Overview
 
-## Features
-- **AI-Driven Questions**: Get custom-tailored interview questions based on your profile and feedback.
-- **User Authentication**: Secure login and signup using Clerk.
-- **Real-Time Feedback**: Answer interview questions and receive immediate feedback with the help of Gemini AI.
-- **Interactive UI**: A responsive, user-friendly interface built with React.
-- **Data Persistence**: User data and interview history managed through Drizzle ORM.
+Seekie helps users practice both technical and behavioral interviews in an interactive environment.
+Using Gemini AI, it generates custom questions based on user preferences and provides instant feedback. With Clerk authentication and Drizzle ORM, users can securely log in and track their past interviews.
 
-## Technologies Used
-- **[Next.js](https://nextjs.org/)**: Framework for server-rendered React applications.
-- **[React](https://reactjs.org/)**: JavaScript library for building user interfaces.
-- **[Drizzle ORM](https://drizzle.team/)**: ORM for managing database interactions.
-- **[Gemini AI](https://gemini.ai/)**: AI API for generating interview questions and analyzing answers.
-- **[Clerk](https://clerk.dev/)**: Authentication and user management.
+✨ Features
 
-## Getting Started
+🤖 AI-Generated Questions – Tailored technical and HR questions based on profile and skill set.
 
-### Installation
-To get started with the project, follow these steps:
+🔐 User Authentication – Secure login & signup using Clerk.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/full-stack-ai-mock-interview-app.git
-   ```
+⚡ Real-Time Feedback – Get instant AI-powered feedback on your answers.
 
-2. Navigate to the project directory:
-   ```bash
-   cd full-stack-ai-mock-interview-app
-   ```
+🎨 Modern UI – Responsive, user-friendly interface built with React + Next.js.
 
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
+📊 Interview History – Save and revisit your past mock interviews with Drizzle ORM.
 
-### Usage
-1. Start the development server:
-   ```bash
-   npm run dev
-   ```
+🛠 Tech Stack
 
-2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see the app in action!
+Next.js
+ – Full-stack React framework
 
-## Contributing
-We welcome contributions! Please follow these steps to contribute:
+React
+ – Component-based frontend
 
-1. **Fork the repository**: Click the "Fork" button at the top right corner of this repository.
-2. **Clone your fork**:
-   ```bash
-   git clone https://github.com/yourusername/full-stack-ai-mock-interview-app.git
-   ```
-3. **Create a new branch**:
-   ```bash
-   git checkout -b your-feature-branch
-   ```
-4. **Make your changes**: Add features or fix bugs.
-5. **Commit your changes**:
-   ```bash
-   git commit -m "Describe your changes"
-   ```
-6. **Push your branch**:
-   ```bash
-   git push origin your-feature-branch
-   ```
-7. **Create a pull request**: Go to the original repository and open a pull request.
+Drizzle ORM
+ – Database ORM for persistence
 
-For more details, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md).
+Clerk
+ – Authentication and user management
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Gemini AI
+ – AI API for interview Q&A and feedback
+
+Tailwind CSS
+ + Shadcn UI – Styling and modern UI components
+
+🚀 Getting Started
+Installation
+
+Clone the repository
+
+git clone https://github.com/Pradnyasharmaa/seekie-ai-interview.git
+cd seekie-ai-interview
 
 
+Install dependencies
+
+npm install
+
+
+Create a .env file in the root with the following variables:
+
+DATABASE_URL=your_database_url
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+
+GEMINI_API_KEY=your_gemini_api_key
+
+
+Start development server
+
+npm run dev
+
+
+The app will run at http://localhost:3000
+.
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a feature branch
+
+Make your changes
+
+Submit a pull request 🚀
